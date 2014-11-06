@@ -1,0 +1,198 @@
+/*
+	Accessible News Slider : Plugin Specific
+-----------------------------------------------------------------------------------------*/
+
+.accessible_news_slider img {
+	border: 0;
+}
+.accessible_news_slider li,
+.accessible_news_slider p {
+	font-family: "Calibri", "Verdana", sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: .9em;
+}
+.accessible_news_slider li p {
+	font-size: 1em;
+}
+.accessible_news_slider {
+	position: relative;
+	overflow: hidden;
+}
+.accessible_news_slider .javascript_css {
+	position: relative;
+	z-index: 3;
+	padding: 20px;
+	background: #fffcd3;
+}
+.accessible_news_slider .skip_to_news {
+	position: absolute;
+	top: 0;
+	left: -9999px;
+}
+.accessible_news_slider .back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.accessible_news_slider .back a,
+.accessible_news_slider .next a {
+	display: none;
+	outline: none; /* This is optional, and is arguably less accessible. */
+}
+.accessible_news_slider .next {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 2;
+}
+.accessible_news_slider ul {
+	position: relative;
+	left: 0;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	z-index: 1;
+}
+.accessible_news_slider li {
+	float: left;
+	display: inline;
+	width: 300px;
+}
+
+/*
+	Accessible News Slider : Plugin Specific : Theme [ Business as Usual ]
+-----------------------------------------------------------------------------------------*/
+
+.business_as_usual  {
+	width: 285px;
+	border-bottom: 1px solid #ddd;
+	margin: 0 0 32px 0;
+}
+.business_as_usual a {
+	color: #363636;
+}
+.business_as_usual .back {
+	width: 100px;
+	height: 23px;
+	left: 0;
+}
+.business_as_usual .back a {
+	position: absolute;
+	top: 0;
+	right: 0px;
+	width: auto;
+	height: 23px;
+	line-height: 23px;
+}
+.business_as_usual .next {
+	width: 100px;
+	height: 23px;
+	right: 0;
+}
+.business_as_usual .next a {
+	position: absolute;
+	top: 0;
+	left: 0px;
+	width: auto;
+	height: 23px;
+	line-height: 23px;
+	text-align: right;
+}
+.business_as_usual .view_all {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	margin: 35px 0 0 0;
+	padding: 8px;
+	background: url(images/themes/business_as_usual/view_all_bg.gif) repeat-x bottom left;
+	text-align: center;
+}
+.business_as_usual li {
+	padding: 15px 0;
+	overflow: hidden;
+	width: 300px;
+}
+.business_as_usual li a
+{
+	font-weight:bold;
+	font-size:1.1em;
+	color:#485A66;
+}
+.business_as_usual li img {
+	float: left;
+	display: inline;
+}
+.business_as_usual li p {
+	float: left;
+	display: inline;
+	margin: 0 0 0 10px;
+	width: 200px;
+}
+
+
+
+
+
+
+.actualidad_comercio_exterior  {
+	width: 285px;
+	border-bottom: 1px solid #ddd;
+	margin: 0 0 32px 0;
+}
+.actualidad_comercio_exterior a {
+	color: #363636;
+}
+.actualidad_comercio_exterior .back {
+	width: 100px;
+	height: 23px;
+	left: 0;
+}
+.actualidad_comercio_exterior .back a {
+	position: absolute;
+	top: 0;
+	right: 0px;
+	width: auto;
+	height: 23px;
+	line-height: 23px;
+}
+.actualidad_comercio_exterior .next {
+	width: 100px;
+	height: 23px;
+	right: 0;
+}
+.actualidad_comercio_exterior .next a {
+	position: absolute;
+	top: 0;
+	left: 0px;
+	width: auto;
+	height: 23px;
+	line-height: 23px;
+	text-align: right;
+}
+.actualidad_comercio_exterior .view_all {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	margin: 35px 0 0 0;
+	padding: 8px;
+	background: url(images/themes/business_as_usual/view_all_bg.gif) repeat-x bottom left;
+	text-align: center;
+}
+.actualidad_comercio_exterior ul 
+{
+	padding-top:10px;
+}
+.actualidad_comercio_exterior li {
+	padding: 0;
+}
+.actualidad_comercio_exterior li a
+{
+	font-size:1.2em;
+	color:#485A66;
+}
+
+
+
+

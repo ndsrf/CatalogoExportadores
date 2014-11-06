@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrWatson.CatExp.Model", "DrWatson.CatExp.Model\DrWatson.CatExp.Model.csproj", "{AEE866E1-04C6-4037-BBDE-3E67F5CE74EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrWatson.CatExp.Data", "DrWatson.CatExp.Data\DrWatson.CatExp.Data.csproj", "{DF6C920D-30FE-4652-B213-E0751DD806FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrWatson.CatExp.WinForm", "DrWatson.CatExp.WinForm\DrWatson.CatExp.WinForm.csproj", "{0CC22985-BA61-483B-864D-7778FA5DFFE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrWatson.CatExp.Web", "DrWatson.CatExp.Web\DrWatson.CatExp.Web.csproj", "{E905B2AD-CCBD-4F48-BBC0-22354F2A52CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrWatson.CatExp.WebApi.Tests", "DrWatson.CatExp.WebApi.Tests\DrWatson.CatExp.WebApi.Tests.csproj", "{1919804C-AE4A-4CD8-BDAD-DAA7F4068521}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://nadasurf.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DrWatson.CatExp.Data\\DrWatson.CatExp.Data.csproj
+		SccProjectName1 = DrWatson.CatExp.Data
+		SccLocalPath1 = DrWatson.CatExp.Data
+		SccProjectUniqueName2 = DrWatson.CatExp.Model\\DrWatson.CatExp.Model.csproj
+		SccProjectName2 = DrWatson.CatExp.Model
+		SccLocalPath2 = DrWatson.CatExp.Model
+		SccProjectUniqueName3 = DrWatson.CatExp.Web\\DrWatson.CatExp.Web.csproj
+		SccProjectName3 = DrWatson.CatExp.Web
+		SccLocalPath3 = DrWatson.CatExp.Web
+		SccProjectUniqueName4 = DrWatson.CatExp.WebApi.Tests\\DrWatson.CatExp.WebApi.Tests.csproj
+		SccProjectName4 = DrWatson.CatExp.WebApi.Tests
+		SccLocalPath4 = DrWatson.CatExp.WebApi.Tests
+		SccProjectUniqueName5 = DrWatson.CatExp.WinForm\\DrWatson.CatExp.WinForm.csproj
+		SccProjectName5 = DrWatson.CatExp.WinForm
+		SccLocalPath5 = DrWatson.CatExp.WinForm
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEE866E1-04C6-4037-BBDE-3E67F5CE74EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE866E1-04C6-4037-BBDE-3E67F5CE74EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE866E1-04C6-4037-BBDE-3E67F5CE74EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE866E1-04C6-4037-BBDE-3E67F5CE74EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF6C920D-30FE-4652-B213-E0751DD806FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF6C920D-30FE-4652-B213-E0751DD806FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF6C920D-30FE-4652-B213-E0751DD806FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF6C920D-30FE-4652-B213-E0751DD806FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC22985-BA61-483B-864D-7778FA5DFFE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC22985-BA61-483B-864D-7778FA5DFFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC22985-BA61-483B-864D-7778FA5DFFE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC22985-BA61-483B-864D-7778FA5DFFE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E905B2AD-CCBD-4F48-BBC0-22354F2A52CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E905B2AD-CCBD-4F48-BBC0-22354F2A52CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E905B2AD-CCBD-4F48-BBC0-22354F2A52CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E905B2AD-CCBD-4F48-BBC0-22354F2A52CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1919804C-AE4A-4CD8-BDAD-DAA7F4068521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1919804C-AE4A-4CD8-BDAD-DAA7F4068521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1919804C-AE4A-4CD8-BDAD-DAA7F4068521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1919804C-AE4A-4CD8-BDAD-DAA7F4068521}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

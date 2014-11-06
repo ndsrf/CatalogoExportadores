@@ -1,0 +1,14 @@
+﻿<div data-ng-controller="sidebar as vm">
+    <div class=""><a href="#">Menu</a></div>
+    <div class="">
+        <div class="">
+        </div>
+
+        <ul class="navi">
+            <li class="" data-ng-class="vm.isCurrent(r)"
+                data-ng-repeat="r in vm.navRoutes">
+                <a href="#{{r.url}}" data-ng-bind-html="r.config.settings.content"></a>
+            </li>
+        </ul>
+    </div>
+</div>
